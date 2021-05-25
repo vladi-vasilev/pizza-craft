@@ -1,11 +1,12 @@
 import React from 'react';
+import './home.css';
 
-const Order = () => {
+const Home = () => {
     return (
         <div className="content">
-            <h1>Order</h1>
+            <h1>HOME</h1>
         </div>
     )
 }
 
-export default Order;
+export default Home;

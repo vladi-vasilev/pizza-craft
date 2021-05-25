@@ -2,9 +2,9 @@ import './App.css';
 import Footer from './components/footer/Footer';
 import Navigation from './components/navigation/Navigation';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Navigation />
       <Footer />
     </div>
