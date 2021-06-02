@@ -5,7 +5,7 @@ import Order from '../order/Order';
 import Restaurants from '../restaurants/Restaurants';
 import About from '../about/About';
 import ErrorPage from '../errorPage/ErrorPage';
-import './navigation.css';
+import styles from './Navigation.module.css';
 
 const Navigation = () => {
     return (

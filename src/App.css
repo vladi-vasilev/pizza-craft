@@ -1,9 +1,11 @@
 .app {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  background-color: blueviolet;
 }
 
 .content {
   /* background-color: aqua; */
-  height: 80vh;
+  height: 100%;
 }

@@ -1,10 +1,13 @@
 import React from 'react'
-import './errorPage.css';
+import styles from './ErrorPage.module.css';
 
 const ErrorPage = () => {
     return (
-        <div className="content">
-            <h1>404 Page Not Found</h1>
+        <div className={styles.content}>
+            <h1>404</h1>
+            <h2>UH OH! You're lost.</h2>
+            <p>The page you are looking for does not exist. How you got here is a mystery. But you can click the button below to go back to the homepage.</p>
+            <button class="btn green">HOME</button>
         </div>
     )
 }
